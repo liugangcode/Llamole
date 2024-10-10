@@ -5,7 +5,7 @@
 # 🔬 🧪 Llamole: Multimodal Large Language Models for Inverse Molecular Design with Retrosynthetic Planning
 
 [![](https://img.shields.io/badge/Paper-pink?style=plastic&logo=arXiv)](https://arxiv.org/abs/2410.04223)
-[![](https://img.shields.io/badge/GitHub-blue?style=plastic&logo=github)](https://github.com/yourusername/Llamole)
+[![](https://img.shields.io/badge/GitHub-blue?style=plastic&logo=github)](https://github.com/liugangcode/Llamole)
 [![](https://img.shields.io/badge/Huggingface-orange?style=plastic&logo=huggingface)](https://huggingface.co/collections/liuganghuggingface/llamole-collection-67073a2e76b47d5fea909434)
 
 </div>
