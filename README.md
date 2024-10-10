@@ -138,7 +138,7 @@ The codebase supports multimodal graph-text supervised fine-tuning. Follow these
    During the first run, pretrained graph models will be downloaded in the `saves` folder. Modify the configuration files as needed for your setup. An 80G A100 GPU is recommended for supervised fine-tuning.
 
 ---
-## Citation
+## 📖 Citation
 
 If you find this repository useful, please cite our paper:
 
@@ -153,6 +153,14 @@ If you find this repository useful, please cite our paper:
       url={https://arxiv.org/abs/2410.04223}, 
 }
 ```
+
+@article{liu2024graphdit,
+  title={Graph Diffusion Transformers for Multi-Conditional Molecular Generation},
+  author={Liu, Gang and Xu, Jiaxin and Luo, Tengfei and Jiang, Meng},
+  journal={Thirty-Eighth Annual Conference on Neural Information Processing Systems},
+  year={2024}
+}
+
 ---
 
 ## 📄 Acknowledgments
@@ -163,7 +171,7 @@ This codebase is built upon **[Llama-Factory](https://github.com/hiyouga/LLaMA-F
 
 ## 📂 Additional Resources
 
-🔗 **Huggingface Models**: Llamole is developed with three variants and three pretrained graph modules (encoder, decoder, predictor):
+🔗 **Huggingface Models**: Llamole is developed with three variants (adapters) and three pretrained graph modules (encoder, decoder, predictor):
 - **Base LLM Variant 1**: [Llama-3.1-8b-Instruct](https://huggingface.co/liuganghuggingface/Llamole-Llama-3.1-8B-Instruct-Adapter)
 - **Base LLM Variant 2**: [Qwen2-7B-Instruct](https://huggingface.co/liuganghuggingface/Llamole-Qwen2-7B-Instruct-Adapter)
 - **Base LLM Variant 3**: [Mistral-7B-Instruct-v0.3](https://huggingface.co/liuganghuggingface/Llamole-Mistral-7B-Instruct-v0.3-Adapter)
