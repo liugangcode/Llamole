@@ -65,8 +65,8 @@ On the first run, the necessary models will be automatically downloaded, includi
    
 2. **Pretrained Graph Models**:
    - **Graph Decoder**: [Graph Diffusion Transformer](https://huggingface.co/liuganghuggingface/Llamole-Pretrained-GraphDiT)
-   - **Graph Encoder**: [Graph Encoder](https://huggingface.co/liuganghuggingface/Llamole-Pretrained-GraphEncoder)
-   - **Graph Predictor**: [GNN Predictor](https://huggingface.co/liuganghuggingface/Llamole-Pretrained-GNNPredictor)
+   - **Graph Encoder**: [GIN-based Encoder](https://huggingface.co/liuganghuggingface/Llamole-Pretrained-GraphEncoder)
+   - **Graph Predictor**: [GIN-based Predictor](https://huggingface.co/liuganghuggingface/Llamole-Pretrained-GNNPredictor)
 
 3. **Adapters and Connectors** for integrating the base LLM with pretrained graph models.
 
