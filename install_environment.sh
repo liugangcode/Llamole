@@ -17,7 +17,7 @@ get_current_conda_env() {
 current_env=$(basename "$CONDA_PREFIX")
 
 # Check if the current environment is 'llamole'
-if [ "$current_env" != "llama_factory" ] && [ "$current_env" != "llamole_test" ]; then
+if [ "$current_env" != "llamole" ]; then
     echo "current: $CONDA_DEFAULT_ENV"
     echo "Current conda environment is neither 'llama_factory' nor 'llamole'."
     echo "Please activate one of these environments before running this script."
