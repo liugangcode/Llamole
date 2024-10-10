@@ -154,12 +154,14 @@ If you find this repository useful, please cite our paper:
 }
 ```
 
+```
 @article{liu2024graphdit,
   title={Graph Diffusion Transformers for Multi-Conditional Molecular Generation},
   author={Liu, Gang and Xu, Jiaxin and Luo, Tengfei and Jiang, Meng},
   journal={Thirty-Eighth Annual Conference on Neural Information Processing Systems},
   year={2024}
 }
+```
 
 ---
 
