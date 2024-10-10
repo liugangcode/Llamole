@@ -72,7 +72,7 @@ On the first run, the necessary models will be automatically downloaded, includi
 
 ### 🗂️ Manual Model Download
 
-If you prefer to download the models manually, place them in the following directories:
+If you prefer to download the models manually, refer to [![](https://img.shields.io/badge/Huggingface-orange?style=plastic&logo=huggingface)](https://huggingface.co/collections/liuganghuggingface/llamole-collection-67073a2e76b47d5fea909434) and place them in the following directories:
 
 - `saves/graph_decoder`
 - `saves/graph_encoder`
