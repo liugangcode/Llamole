@@ -1,0 +1,20 @@
+{
+  "molqa_train_examples": {
+    "file_name": "molqa_train_examples.json"
+  },
+  "molqa_material_examples": {
+    "file_name": "molqa_material_examples.json"
+  },
+  "molqa_drug_examples": {
+    "file_name": "molqa_drug_examples.json"
+  },
+  "molqa_train": {
+    "file_name": "molqa_train.json"
+  },
+  "molqa_material": {
+    "file_name": "molqa_material.json"
+  },
+  "molqa_drug": {
+    "file_name": "molqa_drug.json"
+  }
+}

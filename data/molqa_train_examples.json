@@ -1,0 +1,62 @@
+[
+    {
+        "instruction": "What is a feasible molecular design that meets the criteria of a molecular weight of 243.306, two rings including one aromatic and one aliphatic, two rotatable bonds, and two hydrogen bond acceptors, with a balanced hydrophobic and hydrophilic profile?",
+        "input": "",
+        "output": "To satisfy the requirements: The molecule has a scaffold consisting of a central aromatic ring linked to an amino-functionalized aliphatic chain, featuring a carboxyl group. Its structural complexity is moderate, with a balance of hydrophobic and hydrophilic regions, which could influence its physical and chemical properties. Therefore, the designed molecule is: <design_start><design_end><mol_start>C#CCC1CCN(C(=O)Oc2ccccc2)CC1<mol_end>. This is step 1 in the retrosynthesis process. To synthesize <mol_start>C#CCC1CCN(C(=O)Oc2ccccc2)CC1<mol_end>, follow these procedures: Phenyl chloroformate (6.2 g, 40.2 mmol) was added to a solution of tert-butyl 4-(prop-2-ynyl)piperidine-1-carboxylate (1.65 g, 13.4 mmol) according to general procedure 1. Yield=0.600 g, 34%. m/z MH+=244.08. HPLC rt=10.3 min. The applied reaction is: <retro_start><retro_end>C#CCC1CCN(C(=O)Oc2ccccc2)CC1>>C#CCC1CCN(C(=O)OC(C)(C)C)CC1.O=C(Cl)Oc1ccccc1 with the template [#8:5]-[C;H0;D3;+0:4](=[O;D1;H0:6])-[N;H0;D3;+0:1](-[C:2])-[C:3]>>C-C(-C)(-C)-O-C(=O)-[N;H0;D3;+0:1](-[C:2])-[C:3].Cl-[C;H0;D3;+0:4](-[#8:5])=[O;D1;H0:6], which requires the reactants: C#CCC1CCN(C(=O)OC(C)(C)C)CC1 (available), O=C(Cl)Oc1ccccc1 (available).",
+        "property": {
+            "SC": 2.42,
+            "SA": 2.22
+        },
+        "retro": [
+            180575
+        ]
+    },
+    {
+        "instruction": "Can you design and synthesize a molecule with a molecular weight of around 206, containing 2 rings including 1 aromatic and 1 aliphatic, and 3 rotatable bonds, with no hydrogen bond donors and 2 acceptors?",
+        "input": "",
+        "output": "To satisfy the requirements: The molecule has a relatively low synthetic complexity score and a moderate synthetic accessibility score, indicating that it is relatively easy to synthesize. Its molecular structure is composed of an aromatic ring and an aliphatic chain, which may influence its physical and chemical properties. Therefore, the designed molecule is: <design_start><design_end><mol_start>Cc1ccc(C)n1CCN1CCCC1=O<mol_end>. This is step 1 in the retrosynthesis process. To synthesize <mol_start>Cc1ccc(C)n1CCN1CCCC1=O<mol_end>, follow these procedures: 5.7 g (0.05 mmol) of acetonylacetone and 6.4 g (0.05 mmol) of 1-(2-aminoethyl)-2-pyrrolidinone are heated under reflux in 70 ml of methanol for 2 h. The reaction mixture is then concentrated and, after the concentration, the crude reaction product is then precipitated by addition of petroleum ether. The crude product is recrystallized from diethyl ether. Yield: 3.2 g (31% of theory), Melting point: 66\u00b0-68\u00b0 C. Elemental analysis: C12H18N2O (206.29) calculated: C 69.9 H 8.8 N 13.6 0 7.8 found: C 69.4 H 8.7 N 13.7 0 8.11. The applied reaction is: <retro_start><retro_end>Cc1ccc(C)n1CCN1CCCC1=O>>CC(=O)CCC(C)=O.NCCN1CCCC1=O with the template [C:7]-[n;H0;D3;+0:8]1:[c;H0;D3;+0:1](-[C;D1;H3:2]):[cH;D2;+0:3]:[cH;D2;+0:4]:[c;H0;D3;+0:5]:1-[C;D1;H3:6]>>O=[C;H0;D3;+0:1](-[C;D1;H3:2])-[CH2;D2;+0:3]-[CH2;D2;+0:4]-[C;H0;D3;+0:5](=O)-[C;D1;H3:6].[C:7]-[NH2;D1;+0:8], which requires the reactants: CC(=O)CCC(C)=O (available), NCCN1CCCC1=O (available).",
+        "property": {
+            "SC": 2.69,
+            "SA": 2.34
+        },
+        "retro": [
+            18636
+        ]
+    },
+    {
+        "instruction": "Can you design and synthesize a molecule with a molecular weight around 377, incorporating four rings including two aromatic and two aliphatic rings, and six rotatable bonds, with no hydrogen bond donors and four acceptors?",
+        "input": "",
+        "output": "To satisfy the requirements: The molecule has a moderately complex structure built around a core scaffold that incorporates aromatic rings and aliphatic chains, with the presence of functional groups and a moderate number of rotatable bonds, contributing to its moderate synthetic complexity score. Therefore, the designed molecule is: <design_start><design_end><mol_start>Cc1ccccc1N1CCN(CCCCN2C(=O)c3ccccc3C2=O)CC1<mol_end>. This is step 1 in the retrosynthesis process. To synthesize <mol_start>Cc1ccccc1N1CCN(CCCCN2C(=O)c3ccccc3C2=O)CC1<mol_end>, follow these procedures: The title compound was synthesized applying the general procedure III step A using 1-(2-methylphenyl)piperazine (1.99 mmol, 350 mg), N-(4-bromobutyl)phthalimide (1.99 mmol, 560 mg), and K2CO3 (4.97 mmol, 686 mg) in 6 mL of acetonitrile. White solid 750 mg (99%). 1H NMR (400 MHz, Chloroform-d) \u03b4 7.92-7.79 (m, 2H), 7.72 (dt, J=5.5, 3.1 Hz, 2H), 7.16 (t, J=7.6 Hz, 2H), 7.08-6.88 (m, 2H), 3.74 (t, J=7.1 Hz, 2H), 2.93 (t, J=4.8 Hz, 4H), 2.60 (s, 4H), 2.52-2.39 (m, 2H), 2.30 (s, 3H), 1.75 (p, J=7.3 Hz, 2H), 1.59 (tt, J=9.7, 5.9 Hz, 2H). The applied reaction is: <retro_start><retro_end>Cc1ccccc1N1CCN(CCCCN2C(=O)c3ccccc3C2=O)CC1>>Cc1ccccc1[NH+]1CC[NH2+]CC1.O=C(O)O.O=C1c2ccccc2C(=O)N1CCCCBr.[K+].[K+], which requires the reactants: Cc1ccccc1[NH+]1CC[NH2+]CC1 (available), O=C(O)O (available), O=C1c2ccccc2C(=O)N1CCCCBr (available), [K+] (available), [K+] (available).",
+        "property": {
+            "SC": 2.93,
+            "SA": 1.97
+        },
+        "retro": [
+            null
+        ]
+    },
+    {
+        "instruction": "Can you design a molecule with a molecular weight around 242, one aromatic ring, three rotatable bonds, and three hydrogen bond acceptors, and describe its synthesis process?",
+        "input": "",
+        "output": "To satisfy the requirements: The molecule has an aromatic ring and an aliphatic chain, with the presence of carboxyl, amino, and halogen groups, which contribute to its moderate synthetic complexity score, indicating a relatively challenging synthesis process. Therefore, the designed molecule is: <design_start><design_end><mol_start>COC(=O)c1ccccc1N(C)C(=O)CCl<mol_end>. This is step 1 in the retrosynthesis process. To synthesize <mol_start>COC(=O)c1ccccc1N(C)C(=O)CCl<mol_end>, follow these procedures: 25 Grams of methyl o-methylaminobenzoate was dissolved in 125 ml of acetone, to this solution was added a solution prepared by dissolving 20.92 g of potassium carbonate in 60 ml of water. Under an ice-cooled condition, 17.95 g of chloroacetyl chloride was added dropwise thereto, then the reaction mixture was stired at a room temperature for 1 hour. Acetone was removed by distillation, the residue obtained was extracted with chloroform, then the chloroform layer was washed with water, dried and the solvent was removed by distillation. The residue thus obtained was purified by a silica gel column chromatography to obtain 16.80 g of N-methyl-o-methoxycarbonyl-\u03b1-chloroacetanilide in the form of colorless oily substance. The applied reaction is: <retro_start><retro_end>COC(=O)c1ccccc1N(C)C(=O)CCl>>CNc1ccccc1C(=O)OC.O=C(Cl)CCl.O=C(O)O.[K+].[K+] with the template [C:2]-[C;H0;D3;+0:1](=[O;D1;H0:3])-[N;H0;D3;+0:5](-[C;D1;H3:4])-[c:6]>>Cl-[C;H0;D3;+0:1](-[C:2])=[O;D1;H0:3].[C;D1;H3:4]-[NH;D2;+0:5]-[c:6], which requires the reactants: CNc1ccccc1C(=O)OC (available), O=C(Cl)CCl (available), O=C(O)O (available), [K+] (available), [K+] (available).",
+        "property": {
+            "SC": 2.13,
+            "SA": 2.07
+        },
+        "retro": [
+            39003
+        ]
+    },
+    {
+        "instruction": "Can you design a molecule with a molecular weight of 317.186, three aromatic rings, and two rotatable bonds, and outline a synthesis pathway for it?",
+        "input": "",
+        "output": "To satisfy the requirements: The molecule features a complex aromatic scaffold with multiple rings, exhibiting moderate synthetic complexity and potential bioavailability, while also showing possible interactions with nuclear receptors and stress response pathways. Therefore, the designed molecule is: <design_start><design_end><mol_start>COc1ccccc1-c1cn2cc(Br)cc(C)c2n1<mol_end>. This is step 1 in the retrosynthesis process. To synthesize <mol_start>COc1ccccc1-c1cn2cc(Br)cc(C)c2n1<mol_end>, follow these procedures: A mixture of 2-bromo-2\u2032-methoxyacetophenone (0.500 g, 2.183 mmol) and 2-amino-5-bromo-3-methylpyridine (0.408 g, 2.183 mmol) in ethanol (8 mL) was heated to 80\u00b0 C. for 16 hours in a pressure vessel. A yellow thick precipitate formed. Water was added and the solid was extracted with ethyl acetate (some DCM and MeOH were added to help in the dissolution). The organic extracts were then washed with brine, dried over Na2SO4, filtered and concentrated and the residue was purified by silica gel chromatography (Biotage SNAP 100 g, 10 to 20% ethyl acetate in hexanes) to give 220 (0.375 g, 1.182 mmol, 54.2% yield) as a white solid. LRMS (ESI): calc. 316.02 found 317.1 (MH)+. The applied reaction is: <retro_start><retro_end>COc1ccccc1-c1cn2cc(Br)cc(C)c2n1>>COc1ccccc1C(=O)CBr.Cc1cc(Br)cnc1N.[OH-] with the template [c:4]:[c;H0;D3;+0:3](:[c:5])-[c;H0;D3;+0:2]1:[cH;D2;+0:1]:[n;H0;D3;+0:8](:[c:9]):[c:7]:[n;H0;D2;+0:6]:1>>Br-[CH2;D2;+0:1]-[C;H0;D3;+0:2](=O)-[c;H0;D3;+0:3](:[c:4]):[c:5].[NH2;D1;+0:6]-[c:7]:[n;H0;D2;+0:8]:[c:9], which requires the reactants: COc1ccccc1C(=O)CBr (available), Cc1cc(Br)cnc1N (available), [OH-] (available).",
+        "property": {
+            "SC": 2.94,
+            "SA": 2.19
+        },
+        "retro": [
+            10919
+        ]
+    }
+]

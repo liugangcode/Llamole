@@ -1,0 +1,85 @@
+[
+    {
+        "instruction": "What is the optimal molecular design and synthesis route for a polymer with high CO2 gas permeability and low permeability to N2 and O2, featuring an aromatic ring and specific functional groups?",
+        "input": "",
+        "output": "To satisfy the requirements: The polymer, featuring an aromatic ring and functional groups such as carboxyl and hydroxyl, exhibits a moderate synthetic complexity score and high gas permeability, indicating potential for use in gas separation membranes with good efficiency. Therefore, the designed molecule is: <design_start><design_end><mol_start>*c1cc(C(=O)OCC)c(*)[nH]1<mol_end>. This is step 1 in the retrosynthesis process. To synthesize <mol_start>CCOC(=O)c1cc[nH]c1<mol_end>, follow these procedures: Ethanol (3.2 mL, 54 mmol) and 4-dimethylamino pyridine (DMAP) (54 mg, 0.45 mmol) were added to a mixture of pyrrole-3-carboxylic acid (500 mg, 4.5 mmol) and dicyclohexylcarbodiimide (1.11 g, 5.4 mmol) (Aldrich, Milwaukee, Wis.) in tetrahydrofuran (THF) (15 mL). After heating at 60\u00b0 C. for 10 hours, the reaction was cooled. The precipitate was filtered off, washed with ethyl acetate, the combined filtrate was concentrated and purified on a silica gel column to give 500 mg (81%) of 1H-pyrrole-3-carboxylic acid ethyl ester as a colorless oil. The applied reaction is: <retro_start><retro_end>CCOC(=O)c1cc[nH]c1>>C(=NC1CCCCC1)=NC1CCCCC1.CCO.O=C(O)c1cc[nH]c1 with the template [#7;a:5]:[c:4]:[c:3]-[C;H0;D3;+0:1](=[O;D1;H0:2])-[O;H0;D2;+0:7]-[C:6]>>O-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3]:[c:4]:[#7;a:5].[C:6]-[OH;D1;+0:7], which requires the reactants: C(=NC1CCCCC1)=NC1CCCCC1 (available), CCO (available), O=C(O)c1cc[nH]c1 (available).",
+        "property": {
+            "CO2": 0.94,
+            "N2": 0.0,
+            "O2": 0.0,
+            "FFV": 0.381,
+            "SC": 2.28,
+            "SA": 4.21
+        },
+        "retro": [
+            36155
+        ]
+    },
+    {
+        "instruction": "Can a polymer with a molecular weight of 184.22, one aromatic ring, and specific gas permeability, thermal conductivity, and electrical properties be designed and synthesized for gas separation applications?",
+        "input": "",
+        "output": "To satisfy the requirements: The polymer has an aromatic ring incorporated within its structure, which can contribute to its overall rigidity and mechanical strength. The presence of the sulfonamide group can also enhance the polymer's chemical stability and resistance to degradation. The predicted thermal properties, such as melting point and thermal conductivity, suggest that the polymer may exhibit suitable thermal behavior for various applications. Additionally, the predicted dielectric constant and electrical conductivity indicate that the polymer may possess suitable electrical properties. The gas permeability coefficient and gas diffusion coefficient suggest that the polymer may be suitable for gas separation applications. Overall, the polymer's material utility seems promising for creating polymeric materials with desirable properties. Therefore, the designed molecule is: <design_start><design_end><mol_start>*Nc1cc(*)ccc1S(=O)(=O)NC<mol_end>. This is step 1 in the retrosynthesis process. To synthesize <mol_start>CNS(=O)(=O)c1ccccc1N<mol_end>, follow these procedures: N-Methyl-2-nitrobenzenesulfonamide (1.0 g, 4.6 mmol), 10% palladium on carbon (100 mg) and absolute ethanol (30 mL) were placed in a Parr bottle, the bottle placed on a Parr apparatus under a hydrogen atmosphere (45 psi), and shaken for 1 hour, The Parr bottle was evacuated and flushed with nitrogen, then the mixture was filtered through a disposable syringe filter. The filtrate was concentrated in vacuo to yield 0.81 g of 2-amino-N-methylbenzenesulfonamide. The applied reaction is: <retro_start><retro_end>CNS(=O)(=O)c1ccccc1N>>CNS(=O)(=O)c1ccccc1[N+](=O)[O-] with the template [NH2;D1;+0:1]-[c:2]>>O=[N+;H0;D3:1](-[O-])-[c:2], which requires the reactants: CNS(=O)(=O)c1ccccc1[N+](=O)[O-] (available).",
+        "property": {
+            "CO2": 1.746,
+            "O2": 1.247,
+            "FFV": 0.37,
+            "TC": 0.192,
+            "SC": 2.8,
+            "SA": 4.17
+        },
+        "retro": [
+            3
+        ]
+    },
+    {
+        "instruction": "Can a molecule be designed and synthesized to exhibit high CO2 permeability, moderate fractional free volume, and specific thermal conductivity, while incorporating aromatic and carboxyl functional groups?",
+        "input": "",
+        "output": "To satisfy the requirements: The polymer, with its aromatic ring and carboxyl functional group, exhibits a moderate synthetic complexity score, suggesting a relatively accessible molecular structure for synthesis. Its molecular structure and functional groups are expected to impart specific physical and chemical properties, influencing its material utility for polymeric materials. Therefore, the designed molecule is: <design_start><design_end><mol_start>*CC(*)OC(=O)c1cc(C)cc(Cl)c1<mol_end>. This is step 1 in the retrosynthesis process. To synthesize <mol_start>CCOC(=O)c1cc(C)cc(Cl)c1<mol_end>, follow these procedures: The title compound was synthesized from 3-chloro-5-methyl-benzoic acid under the same conditions as for Compound b1. The applied reaction is: <retro_start><retro_end>CCOC(=O)c1cc(C)cc(Cl)c1>>CCOC(=O)c1ccc(Br)c(C(F)(F)F)c1.Cc1cc(Cl)cc(C(=O)O)c1, which requires the reactants: CCOC(=O)c1ccc(Br)c(C(F)(F)F)c1 (not available, needs to be synthesized), Cc1cc(Cl)cc(C(=O)O)c1 (available). This is step 2 in the retrosynthesis process. To synthesize <mol_start>CCOC(=O)c1ccc(Br)c(C(F)(F)F)c1<mol_end>, follow these procedures: Potassium carbonate (1.5 g, 11.2 mmol) and ethyl iodide (1.2 g, 7.4 mmol) were added to a solution of 4-bromo-3-trifluoromethyl-benzoic acid (1.0 g, 3.7 mmol) in DMF (5 ml), and the mixture was stirred at room temperature for 24 hours. The reaction mixture was diluted with ethyl acetate, and the organic layer was washed with water and saturated-saline, and dried over anhydrous sodium sulfate. The drying agent was removed by filtration. After concentration under reduced pressure, the resulting residue was purified by silica gel column chromatography (ethyl acetate/hexane) to yield the title compound (1.03 g, 94%) as a brown oily substance. The applied reaction is: <retro_start><retro_end>CCOC(=O)c1ccc(Br)c(C(F)(F)F)c1>>CCI.O=C(O)c1ccc(Br)c(C(F)(F)F)c1.O=C([O-])[O-].[K+].[K+], which requires the reactants: CCI (available), O=C(O)c1ccc(Br)c(C(F)(F)F)c1 (available), O=C([O-])[O-] (available), [K+] (available), [K+] (available).",
+        "property": {
+            "CO2": 0.94,
+            "N2": 0.0,
+            "O2": 0.0,
+            "FFV": 0.375,
+            "TC": 0.223,
+            "SC": 2.58,
+            "SA": 4.01
+        },
+        "retro": [
+            null,
+            null
+        ]
+    },
+    {
+        "instruction": "What molecular structure can be designed and synthesized to achieve CO2 permeability of 1.743 Barrer, N2 impermeability, and specific thermal conductivity and fractional free volume properties, while incorporating an aromatic ring and limited rotatable bonds?",
+        "input": "",
+        "output": "To satisfy the requirements: The polymer is a complex molecular structure incorporating an aromatic ring and a bromine functional group, which may provide enhanced thermal and mechanical properties, potentially useful for gas separation applications. Therefore, the designed molecule is: <design_start><design_end><mol_start>*c1ccc(*)c(CBr)c1<mol_end>. This is step 1 in the retrosynthesis process. To synthesize <mol_start>BrCc1ccccc1<mol_end>, follow these procedures: 4.65 g (10 mM) of compound 1a were treated, while stirring, with 40 ml of 2 N HBr in glacial acetic acid for 45 min. at 20\u00b0 in the absence of moisture. The amino acid derivative dissolved with CO2 evolution. The reaction solution was added dropwise with vigorous stirring to 250 ml of absolute ether which resulted in the precipitation of 2HBr.H-Arg-pNA. The ethereal phase was sucked off, whereupon the solid phase was washed 4 times with portions of 100 ml of abs. ether in order to substantially remove benzyl bromide which had formed as a by-product as well as excess HBr and AcOH. The residue was dissolved in 50 ml of MeOH, the pH was adjusted to 4.5 by the addition of Et3N, and the solution was concentrated to dryness in vacuo at 30\u00b0. The resulting product was dissolved in 75 ml of MeOH and passed through a column of \"Sephadex\" LH-20 (cross-linked dextran gel) equilibrated with MeOH. From a fraction of the eluate there were obtained 4.18 g (91.6% of the theory) of amorphous compound 1b which was homogeneous in the SS as shown by TLC. Elementary analysis and calculation from the empirical formula C12H20N6O3Br2 gave the following values: C=31.15% (31.60%), H=4.35% (4.42%), N=18.84% (18.43%) and Br=34.81% (35.03%). The applied reaction is: <retro_start><retro_end>BrCc1ccccc1>>CC(C)(C#N)/N=N/C(C)(C)C#N.Cc1ccc(S(=O)(=O)Cl)cc1.O=C1CCC(=O)N1Br, which requires the reactants: CC(C)(C#N)/N=N/C(C)(C)C#N (available), Cc1ccc(S(=O)(=O)Cl)cc1 (available), O=C1CCC(=O)N1Br (available).",
+        "property": {
+            "CO2": 1.743,
+            "N2": 0.0,
+            "O2": 4.692,
+            "FFV": 0.411,
+            "TC": 0.256,
+            "SC": 2.25,
+            "SA": 5.14
+        },
+        "retro": [
+            null
+        ]
+    },
+    {
+        "instruction": "Can you design a molecule with moderate synthetic complexity, featuring a carboxyl functional group and an aromatic ring, that exhibits CO2 gas permeability of 9.176 Barrer, O2 gas permeability of 1.494 Barrer, fractional free volume of 0.374, and thermal conductivity of 0.228 W m^{-1} K^{-1}?",
+        "input": "",
+        "output": "To satisfy the requirements: The polymer exhibits a moderate synthetic complexity score, indicating that its synthesis is relatively feasible. The presence of an aromatic ring and a carboxyl functional group in its scaffold contributes to its moderate complexity. Therefore, the designed molecule is: <design_start><design_end><mol_start>*OC(=O)c1ccc(*)s1<mol_end>. This is step 1 in the retrosynthesis process. To synthesize <mol_start>O=C([O-])c1cccs1<mol_end>, follow these procedures: To a 15-mL polypropylene centrifuge tube was added 3.86 mL of 50 mM potassium phosphate buffer (pH 7.0), 1.0 mL of a suspension of 22.1 mg dry cell weight E. coli SW132 wet cells (prepared as described in Example 10) in 50 mM potassium phosphate buffer (pH 7.0), and 0.1691 g of 2-thiophenecarbonitrile. The final concentration of 2-thiophencarbonitrile was 0.307 M. The reaction mixture was mixed on a rotating platform at 27\u00b0 C. After 30 min, 7.50 mL of 95:5 acetonitrile/water containing 0.30 M N,N-dimethylbenzamide (HPLC external standard) was added to the reaction, the resulting mixture centrifuged, and a 0.100 mL of the supernatant mixed with 0.900 mL of acetonitrile and analyzed by HPLC. The conversion of 2-thiophenecarbonitrile was 99.5%, and the yields of 2-thiophenecarboxamide and 2-thiophenecarboxylic acid were 98% and 0%, respectively. The applied reaction is: <retro_start><retro_end>O=C([O-])c1cccs1>>CN(C)C(=O)c1ccccc1.N#Cc1cccs1.O=P([O-])([O-])O.[2H]C([2H])([2H])C#N.[K+].[K+].[K+].[OH-], which requires the reactants: CN(C)C(=O)c1ccccc1 (available), N#Cc1cccs1 (available), O=P([O-])([O-])O (available), [2H]C([2H])([2H])C#N (available), [K+] (available), [K+] (available), [K+] (available), [OH-] (available).",
+        "property": {
+            "CO2": 9.176,
+            "O2": 1.494,
+            "FFV": 0.374,
+            "TC": 0.228,
+            "SC": 2.23,
+            "SA": 4.78
+        },
+        "retro": [
+            null
+        ]
+    }
+]

@@ -1,0 +1,75 @@
+[
+    {
+        "instruction": "Can you design and synthesize a molecule that inhibits both Human Immunodeficiency Virus and Beta-Secretase 1, with a molecular weight of around 335 and two aromatic rings connected to aliphatic chains?",
+        "input": "",
+        "output": "To satisfy the requirements: The molecule has a moderately complex structure, consisting of aromatic rings connected to aliphatic chains, and featuring carboxyl and hydroxyl functional groups. Therefore, the designed molecule is: <design_start><design_end><mol_start>CC(=O)OCCC(C)Oc1ccc(Cl)cc1Oc1ccccc1<mol_end>. This is step 1 in the retrosynthesis process. To synthesize <mol_start>CC(=O)OCCC(C)Oc1ccc(Cl)cc1Oc1ccccc1<mol_end>, follow these procedures: A solution of (R)-acetic acid 3-(toluene-4-sulfonyloxy)-butyl ester (5.89 g, 21 mmol) and 4-chloro-2-phenoxy-phenol (5.0 g, 23 mmol) in DMF (50 mL) is treated with cesium carbonate (7.4 g, 23 mmol). The solution is heated to 60\u00b0 C. and stirred overnight. The reaction is cooled and quenched with 1N HCl. The solution is partitioned in EtOAc and water. The organic is separated, washed with brine, and dried over sodium sulfate. The organic is filtered, and the solvent is removed to afford acetic acid 3-(4-chloro-2-phenoxy-phenoxy)-butyl ester, which is then diluted in methanol (100 mL) and treated with potassium carbonate (5.68 g, 40 mmol). The reaction is stirred for 2 hours at rt. The reaction is then partitioned in EtOAc and water. The organic layer is separated, washed with brine, and dried over sodium sulfate. The organic is filtered and the solvent is removed to afford the crude product. The crude is purified by silica gel column chromatography using 1/1 hexanes/EtOAc to elute the pure product. The solvent is removed to afford 4.35 g (72%) of the desired product. 1H NMR (400 MHz, CDCl3); MS (ES+) m/z mass calcd for C16H17ClO3 292, found 293 (M+1, 100%). The applied reaction is: <retro_start><retro_end>CC(=O)OCCC(C)Oc1ccc(Cl)cc1Oc1ccccc1>>CC(=O)OCCC(C)OS(=O)(=O)c1ccc(C)cc1.O=C(O)O.Oc1ccc(Cl)cc1Oc1ccccc1.[Cs+].[Cs+], which requires the reactants: CC(=O)OCCC(C)OS(=O)(=O)c1ccc(C)cc1 (available), O=C(O)O (available), Oc1ccc(Cl)cc1Oc1ccccc1 (not available, needs to be synthesized), [Cs+] (available), [Cs+] (available). This is step 2 in the retrosynthesis process. To synthesize <mol_start>Oc1ccc(Cl)cc1Oc1ccccc1<mol_end>, follow these procedures: A \u221240\u00b0 C. solution of 4-chloro-2-phenoxy-1-methoxy-benzene (7.16 g, 30.5 mmol) in dry CH2Cl2 (70 mL) is treated dropwise with borontribromide (22.9 g, 91.5 mmol) and then warmed to 0\u00b0 C. and stirred for 3 h under N2. The reaction is diluted with Et2O and quenched with water. The organic layer is dried (Na2SO4), and the solvent is removed in vacuo to afford 7.11 g (100%) of the title compound. Rf=0.30 (4/1 hexanes/acetone). 1H NMR (400 MHz, CDCl3); MS (ES\u2212) m/z mass calcd for C12H9O2Cl 220, found 219 (M\u22121, 100%). The applied reaction is: <retro_start><retro_end>Oc1ccc(Cl)cc1Oc1ccccc1>>COc1ccc(Cl)cc1Oc1ccccc1, which requires the reactants: COc1ccc(Cl)cc1Oc1ccccc1 (not available, needs to be synthesized). This is step 3 in the retrosynthesis process. To synthesize <mol_start>COc1ccc(Cl)cc1Oc1ccccc1<mol_end>, follow these procedures: A mixture of 2-bromo-4-chloro-1-methoxy-benzene (8.0 g, 36.1 mmol), phenol (6.80 g, 72.2 mmol), cesium carbonate (23.54 g, 72.2 mmol), copper (I) chloride (1.79 g, 18.1 mmol) and 2,2,6,6-tetramethyl-3,5-heptanedione (1.66 g, 9.00 mmol) in dry 1-methyl-2-pyrrolidinone (80 mL) is heated to 120\u00b0 C. for 20 hours under N2. The reaction is cooled, filtered and the filtrate quenched with 1 N HCl (50 mL). The filtrate is diluted with Et2O and extracted with water. The organic layer is dried (Na2SO4), and the solvent is removed in vacuo to afford crude product that is absorbed on silica gel and purified by flash chromatography using 9/1 hexanes/EtOAc to afford 7.42 g (88%) of the title compound. Rf=0.37 (4/1 hexanes/EtOAc). The applied reaction is: <retro_start><retro_end>COc1ccc(Cl)cc1Oc1ccccc1>>CC(C)(C)C(=O)CC(=O)C(C)(C)C.COc1ccc(Cl)cc1Br.O=C(O)O.[Cs+].[Cs+].[O-]c1ccccc1, which requires the reactants: CC(C)(C)C(=O)CC(=O)C(C)(C)C (available), COc1ccc(Cl)cc1Br (available), O=C(O)O (available), [Cs+] (available), [Cs+] (available), [O-]c1ccccc1 (available).",
+        "property": {
+            "HIV": 1.0,
+            "BACE": 1.0,
+            "SC": 3.1,
+            "SA": 2.46
+        },
+        "retro": [
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "instruction": "What is a possible molecular structure that can penetrate the blood-brain barrier and inhibit Human Immunodeficiency Virus, given a molecular weight of 209.249 and specific ring and bond characteristics?",
+        "input": "",
+        "output": "To satisfy the requirements: The molecule has an aromatic ring and a common functional group of carboxyl, which suggests a certain level of structural complexity, likely influencing its physical and chemical properties, and indicating a moderate synthetic complexity score. Therefore, the designed molecule is: <design_start><design_end><mol_start>CC(C)(C)OC(=O)Nc1ccc(N)cn1<mol_end>. This is step 1 in the retrosynthesis process. To synthesize <mol_start>CC(C)(C)OC(=O)Nc1ccc(N)cn1<mol_end>, follow these procedures: To a suspension of (tert-butoxy)-N-(5-nitro(2-pyridyl))carboxamide (0.27 g, 1.13 mmol) in methanol (2 mL), ethyl acetate (4 mL) and TEA (0.16 mL) was added 10% Pd/C (60 mg, 0.056 mmol) under argon. The reaction mixture was hydrogenated under 1 atm H2 for 20 hr, filtered through Celite and concentrated in vacuo to give N-(5-amino(2-pyridyl))(tert-butoxy)carboxamide (0.226 g, 97%). 1H-NMR (DMSO-d6): \u03b4 1.40 (s, 9H), 4.92 (br s, 2H), 6.89-6.91 (dd, 1H), 7.35-7.37 (d, 1H), 7.58 (d, 1H), 9.06 (s, 1H). The applied reaction is: <retro_start><retro_end>CC(C)(C)OC(=O)Nc1ccc(N)cn1>>CC(C)(C)OC(=O)Nc1ccc([N+](=O)[O-])cn1 with the template [#7;a:4]:[c:3]:[c:2]-[NH2;D1;+0:1]>>O=[N+;H0;D3:1](-[O-])-[c:2]:[c:3]:[#7;a:4], which requires the reactants: CC(C)(C)OC(=O)Nc1ccc([N+](=O)[O-])cn1 (available).",
+        "property": {
+            "BBBP": 1.0,
+            "HIV": 1.0,
+            "SC": 2.03,
+            "SA": 2.08
+        },
+        "retro": [
+            2965
+        ]
+    },
+    {
+        "instruction": "What molecular structure can be designed to exhibit Blood-Brain Barrier Penetration and Human Immunodeficiency Virus Inhibition while featuring a specific combination of molecular weight, ring count, and functional groups?",
+        "input": "",
+        "output": "To satisfy the requirements: The molecule features a complex structure with two aromatic rings and a high number of rotatable bonds, indicating potential difficulties in synthesis. Its chemical properties are influenced by the presence of functional groups such as carboxyl and amino groups. The predicted properties suggest high substrate specificity for CYP2C9 and moderate substrate specificity for CYP3A4, while also indicating a low risk of carcinogenicity and high clearance in microsomes. The molecule's hydration free energy and skin reaction predictions are also noteworthy. Overall, the molecule's unique combination of structural features and predicted chemical properties makes it an interesting candidate for further investigation. Therefore, the designed molecule is: <design_start><design_end><mol_start>CC(=O)c1sc(NS(=O)(=O)c2cc(Br)c(Cl)s2)nc1C<mol_end>. This is step 1 in the retrosynthesis process. To synthesize <mol_start>CC(=O)c1sc(NS(=O)(=O)c2cc(Br)c(Cl)s2)nc1C<mol_end>, follow these procedures: The title compound was prepared from 5-acety1-2-amino-4-methylthiazole (42 mg) and 4-bromo-5-chlorothiophene-2-sulfonyl chloride (80 mg) as described in the synthetic METHOD B to give a white solid (11.7 mg) with purity >90%: MS (pos) m/z 415.3, 417.3. The applied reaction is: <retro_start><retro_end>CC(=O)c1sc(NS(=O)(=O)c2cc(Br)c(Cl)s2)nc1C>>CC(=O)c1sc(N)nc1C.O=S(=O)(Cl)c1cc(Br)c(Cl)s1 with the template [#16;a:5]:[c:4]-[S;H0;D4;+0:1](=[O;D1;H0:2])(=[O;D1;H0:3])-[NH;D2;+0:9]-[c:7](:[#16;a:6]):[#7;a:8]>>Cl-[S;H0;D4;+0:1](=[O;D1;H0:2])(=[O;D1;H0:3])-[c:4]:[#16;a:5].[#16;a:6]:[c:7](:[#7;a:8])-[NH2;D1;+0:9], which requires the reactants: CC(=O)c1sc(N)nc1C (available), O=S(=O)(Cl)c1cc(Br)c(Cl)s1 (available).",
+        "property": {
+            "BBBP": 1.0,
+            "HIV": 1.0,
+            "SC": 2.83,
+            "SA": 2.74
+        },
+        "retro": [
+            145329
+        ]
+    },
+    {
+        "instruction": "Can you design a molecule that penetrates the blood-brain barrier, inhibits Human Immunodeficiency Virus, and doesn't inhibit Beta-Secretase 1, while having a specific set of structural properties?",
+        "input": "",
+        "output": "To satisfy the requirements: The molecule exhibits a moderate level of structural complexity, featuring three aromatic rings and an aliphatic chain, with a molecular weight of 216.27. Its synthetic complexity score is 2.88, indicating it may be moderately challenging to synthesize. This structure is predicted to have a relatively low likelihood of mutagenicity, with an AMES score of 0.608. It also shows moderate to low likelihood of blood-brain barrier penetration, with a BBB_Martins score of 0.576. The molecule's oral bioavailability is predicted to be moderate, with a Bioavailability_Ma score of 0.797. Additionally, it is predicted to have a low to moderate interaction with various cytochrome P450 enzymes. Overall, the molecule's drug utility is influenced by its structural features, bioactivity, and pharmacokinetic properties, which suggest it may have potential as a therapeutic agent. Therefore, the designed molecule is: <design_start><design_end><mol_start>c1csc(Nc2nccn3ccnc23)c1<mol_end>. This is step 1 in the retrosynthesis process. To synthesize <mol_start>c1csc(Nc2nccn3ccnc23)c1<mol_end>, follow these procedures: To a solution of (3-bromo-imidazo[1,2-a]pyrazin-8-yl)-methyl-amine (50 mg, 0.2 mmol) in tetrahydrofuran (2 ml) under nitrogen was added 2-thiopheneboronic acid (41 mg, 0.3 mmol), K2CO3 (1.1 ml of a 1 M solution in water) and 16 mg (0.1 mmol) of PdCl2(Dppf)CH2Cl2 (16 mg, 0.1 eq). The mixture was heated at 70\u00b0 C. in a sealed tube overnight. The product was precipitated by adding methanol. The filtrate was evaporated and purified by preparative thin layer chromatography on silica gel to give additional title compound for a total of 45 mg (100% yield). The applied reaction is: <retro_start><retro_end>c1csc(Nc2nccn3ccnc23)c1>>CNc1nccn2c(Br)cnc12.O=C(O)O.OB(O)c1cccs1.[K+].[K+] with the template [#7;a:4]:[c:3]:[cH;D2;+0:1]:[#7;a:2].[#7:5]-[c;H0;D3;+0:6]1:[cH;D2;+0:9]:[c:8]:[cH;D2;+0:7]:[s;H0;D2;+0:10]:1>>Br-[c;H0;D3;+0:1](:[#7;a:2]):[c:3]:[#7;a:4].[#7:5]-[CH3;D1;+0:6].O-B(-O)-[c;H0;D3;+0:7]1:[c:8]:[cH;D2;+0:9]:c:[s;H0;D2;+0:10]:1, which requires the reactants: CNc1nccn2c(Br)cnc12 (available), O=C(O)O (available), OB(O)c1cccs1 (available), [K+] (available), [K+] (available).",
+        "property": {
+            "BBBP": 1.0,
+            "HIV": 1.0,
+            "BACE": 0.0,
+            "SC": 2.88,
+            "SA": 2.75
+        },
+        "retro": [
+            155241
+        ]
+    },
+    {
+        "instruction": "What molecule can be designed and synthesized to penetrate the blood-brain barrier and inhibit Human Immunodeficiency Virus, given the constraints of a molecular weight around 209.245 and a single aromatic ring?",
+        "input": "",
+        "output": "To satisfy the requirements: The molecule featuring an aromatic ring and an aliphatic chain, with functional groups including hydroxyl and carboxyl, exhibits moderate synthetic complexity and moderate lipophilicity, which may influence its physical and chemical properties. Therefore, the designed molecule is: <design_start><design_end><mol_start>CC(C)(C)OC(=O)Nc1ccccc1O<mol_end>. This is step 1 in the retrosynthesis process. To synthesize <mol_start>CC(C)(C)OC(=O)Nc1ccccc1O<mol_end>, follow these procedures: To a solution of 2-aminophenol (2.84 g) in dichloromethane (120 ml) was added di-tert-butyl dicarbonate (6.55 g). The mixture was stirred at room temperature for 18 hours. The mixture was partitioned between water and dichloromethane. The organic extracts were dried (MgSO4) and evaporated to give a solid which was purified by column chromatography on silica eluting with a mixture of ethyl acetate and hexane (20:80) to give 2-tert-butyloxycarbonylaminophenol (1.80 g);. The applied reaction is: <retro_start><retro_end>CC(C)(C)OC(=O)Nc1ccccc1O>>CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.Nc1ccccc1[O-] with the template [C;D1;H3:1]-[C:2](-[C;D1;H3:3])(-[C;D1;H3:4])-[#8:5]-[C;H0;D3;+0:6](=[O;D1;H0:7])-[NH;D2;+0:8]-[c:9]>>[C;D1;H3:1]-[C:2](-[C;D1;H3:3])(-[C;D1;H3:4])-[#8:5]-[C;H0;D3;+0:6](=[O;D1;H0:7])-O-[C;H0;D3;+0:6](=[O;D1;H0:7])-[#8:5]-[C:2](-[C;D1;H3:1])(-[C;D1;H3:3])-[C;D1;H3:4].[NH2;D1;+0:8]-[c:9], which requires the reactants: CC(C)(C)OC(=O)OC(=O)OC(C)(C)C (available), Nc1ccccc1[O-] (available).",
+        "property": {
+            "BBBP": 1.0,
+            "HIV": 1.0,
+            "SC": 1.7,
+            "SA": 1.73
+        },
+        "retro": [
+            38065
+        ]
+    }
+]

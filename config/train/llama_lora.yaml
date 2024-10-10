@@ -1,0 +1,49 @@
+### model
+model_name_or_path: meta-llama/Meta-Llama-3.1-8B-Instruct
+new_special_tokens: <design_start>,<design_end>,<design_body>,<molecule>,<retro_start>,<retro_end>,<retro_body>,<rollback_start>,<rollback_end>
+graph_decoder_path: saves/graph_decoder
+graph_encoder_path: saves/graph_encoder
+graph_predictor_path: saves/graph_predictor
+graph_lm_connector_path: null #specify when resume
+### method
+stage: mmsft
+do_train: true
+finetuning_type: lora
+lora_target: all
+flash_attn: disabled
+learned_query_size: 8
+### dataset
+dataset: molqa_train_examples
+template: llama3
+cutoff_len: 2048
+overwrite_cache: true
+preprocessing_num_workers: 16
+### output
+output_dir: saves/Llama-3.1-8B-Instruct-Adapter
+logging_steps: 10
+save_steps: 2000
+plot_loss: true
+overwrite_output_dir: true
+### to resume
+# overwrite_output_dir: false
+### train
+per_device_train_batch_size: 10
+gradient_accumulation_steps: 2
+learning_rate: 1.0e-4
+num_train_epochs: 4.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+ddp_timeout: 180000000
+bf16: true
+pure_bf16: true
+### train loss
+loss_weight_retro: 1
+loss_weight_design: 1
+loss_weight_lm: 1
+### eval
+val_size: 0.1
+per_device_eval_batch_size: 6
+eval_strategy: steps
+eval_steps: 2000
+### specify if connected to wandb
+report_to: 'none'
